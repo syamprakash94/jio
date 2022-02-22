@@ -1,0 +1,641 @@
+*{
+    margin: 0%;
+}
+
+/* main header div */
+.header{
+    width: 100%;
+    height: 76px;
+    background-color:#0f3cc9;
+    display: flex;
+    
+}
+/* jio icon in header */
+.jio-icon{
+    margin-left: 51px;
+    padding-top: 6px;
+}
+/* header keys */
+.header-keys{
+    width: 481px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 37px;
+    padding-top: 28px;
+    font-family: JioType,helvetica,arial,sans-serif;
+    font-weight: 700;
+    color: white;
+}
+.mobile-key{
+    color: aliceblue;
+}
+.otherkey{
+    color: aliceblue;
+    text-decoration: none;
+}
+a:hover{
+    opacity: 0.5;
+    
+}
+/* search bar */
+.search-bar{
+    width: 303px;
+    background-color: #0a2885;
+    margin-left: 151px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   border-radius: 20px;
+}
+.search-image{
+    padding-left: 12px;
+    padding-top: 3px;
+    
+}
+.search-button{
+    position:absolute ;
+    top: 26px;
+    right: 400px;
+    color: white;
+    font-family: JioType,helvetica,arial,sans-serif;
+    font-weight: 500;
+    text-transform: none;
+    font-size: 1rem;
+    letter-spacing: -.08px;
+    line-height: 1.5;
+}
+/* message  and shop button */
+.message-button{
+width: 78px;
+margin-left: 20px;
+text-align: center;
+padding-top: 27px;
+}
+/* account button */
+.account-button{
+    margin-left: 20px;
+    padding-top: 21px;
+}
+/* header sub  */
+.header-sub{
+    background-color:#0a2885;
+    width: 100%;
+    height: 50px;
+    display: flex; 
+    align-items: center;
+}
+.header-subkeys{
+    color: aliceblue;
+    text-decoration: none;
+    font-family: JioType,helvetica,arial,sans-serif;
+    font-weight: 700;
+    margin-left: 55px; 
+}
+/* 1st image */
+.body-image{
+margin-left: 39px;
+margin-top: 55px;
+border-radius: 10px 10px 10px 10px;
+}
+.scroll-buttons{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 38px;
+}
+.scrollbutton1{
+    width: 8px;
+    height: 8px;
+    background-color: darkgrey;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.scrollbutton2{
+    background-color: #0f3cc9;
+    width: 25px;
+    height: 8px;
+    margin-right: 10px;
+    border-radius: 10px 10px 10px 10px;
+} 
+
+.body-keys{
+    
+    width: 100%;
+    
+    margin-top: 57px;
+    display: flex;
+    justify-content: center;
+    
+}
+.recharge-key{
+    height: 50px;
+    width: 109px;
+
+margin-right: 10px;
+text-align: center;
+line-height: 49px;
+border-radius: 30px 30px 30px 30px;
+border-style: solid;
+border-color:aliceblue;
+}
+.paybill-key{
+    
+    margin-right: 10px;
+    height: 50px;
+    width: 96px;
+    text-align: center;
+    line-height: 49px;
+    border-radius: 30px 30px 30px 30px;
+    border-style: solid;
+    border-color:aliceblue;
+}
+.getjio-key{
+    
+    margin-right: 10px;
+    height: 50px;
+    width: 120px;
+    text-align: center;
+    line-height: 49px;
+    border-radius: 30px 30px 30px 30px;
+    border-style: solid;
+    border-color:aliceblue;
+
+}
+.port-key{
+    
+    margin-right: 10px;
+    height: 50px;
+    width: 120px;
+    text-align: center;
+    line-height: 49px;
+    border-radius: 30px 30px 30px 30px;
+    border-style: solid;
+    border-color:aliceblue;
+}
+
+.body-text{
+    margin-left: 38px;
+    font-family: JioType,helvetica,arial,sans-serif;
+    font-weight: 900;
+    margin-top: 61px;
+    font-size: 34px;
+    line-height: 1.1;
+    
+}
+
+
+.plan-details{
+    width: 100%;
+    height: 386px;
+    margin-top: 31px;
+   
+display: flex;
+}
+
+
+.detail-1{
+    width: 386px;
+    height: 386px;
+    background-color: #f2f3f4;
+    margin-left: 41px;
+    border-radius: 20px 20px 20px 20px;
+}
+.detail-sub1{
+    height: 24px;
+    width: 198px;
+background-color: #0c5273;
+margin-top: 24px;
+margin-left: 15px;
+font-size: .75rem;
+font-family: JioType,helvetica,arial,sans-serif;
+text-align: center;
+line-height: 25px;
+color: white;
+}
+.rate-299{
+    margin-left: 15px;
+    margin-top: 0px;
+    font-family: JioType,helvetica,arial,sans-serif;
+    font-weight: 900;
+    font-size: 42px;
+}
+.detail-sub2{
+    margin-left: 15px;
+    font-family: JioType,helvetica,arial,sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+.detail-image{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 49px;
+    
+}
+.detail-image img{
+    margin-right: 5px;
+}
+.detail-image p{
+    margin-top: 16px;
+    margin-left: 10px;
+    font-family: JioType,helvetica,arial,sans-serif;
+}
+.detail-bar1{ 
+    border-bottom: 2px solid rgb(226, 219, 219);
+    width: 80%;
+    margin-left: 36px;
+    margin-top: 25px;
+}
+.offer-1{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 23px;
+    margin-right: 163px;
+    font-family: JioType,helvetica,arial,sans-serif;
+}
+.offer-1 h1{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: JioType,helvetica,arial,sans-serif;
+}
+.action-1{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.actionsub-1{
+    background-color: #0f3cc9;
+    border-radius: 40px 40px 40px 40px;
+    height: 44px;
+    width: 152px
+    
+    
+}
+.actionsub-1 p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: JioType,helvetica,arial,sans-serif;
+    font-weight: 600;
+    color: white;
+}
+.action-1 h1{
+    font-size: 17px;
+    font-family: JioType,helvetica,arial,sans-serif;
+    font-weight: 600;
+    margin-left: 59px;
+    margin-top: 10px;
+    color: #0f3cc9;
+}
+.detail-2{
+    width: 386px;
+    height: 386px;
+    background-color: #f2f3f4;
+    margin-left: 17px;
+    border-radius: 20px 20px 20px 20px;
+
+}
+.detail2-sub2{
+    height: 24px;
+    width: 119px;
+background-color: #0c5273;
+margin-top: 24px;
+margin-left: 15px;
+font-size: .75rem;
+font-family: JioType,helvetica,arial,sans-serif;
+text-align: center;
+line-height: 25px;
+color: white;
+
+}
+.rate-499{
+margin-left: 15px;
+    margin-top: 0px;
+    font-family: JioType,helvetica,arial,sans-serif;
+    font-weight: 900;
+    font-size: 42px;
+}
+.detail2nd-sub2{
+    margin-left: 15px;
+    font-family: JioType,helvetica,arial,sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+.detail2-image{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 30px;
+  
+    
+}
+.detail2-image img{
+    margin-right: 5px;
+}
+.detail2-image p{
+    margin-top: 16px;
+    margin-left: 10px;
+    font-family: JioType,helvetica,arial,sans-serif;
+}
+.detail-bar2{
+    border-bottom: 2px solid rgb(226, 219, 219);
+    width: 80%;
+    margin-left: 36px;
+    margin-top: 25px;
+}
+.offer-2{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 23px;
+    margin-right: 163px;
+    font-family: JioType,helvetica,arial,sans-serif;
+}
+.offer-2 h1{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: JioType,helvetica,arial,sans-serif;
+
+}
+.action-2{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.actionsub-2{
+    background-color: #0f3cc9;
+    border-radius: 40px 40px 40px 40px;
+    height: 44px;
+    width: 152px
+    
+    
+}
+.actionsub-2 p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: JioType,helvetica,arial,sans-serif;
+    font-weight: 600;
+    color: white;
+}
+.action-2 h1{
+    font-size: 17px;
+    font-family: JioType,helvetica,arial,sans-serif;
+    font-weight: 600;
+    margin-left: 59px;
+    margin-top: 10px;
+    color: #0f3cc9;
+}
+.detail-3{
+    width: 386px;
+    height: 386px;
+    background-color: #f2f3f4;
+    margin-left: 17px;
+    border-radius: 20px 20px 20px 20px;
+
+}
+.detail3-sub3{
+    
+height: 24px;
+width: 211px;
+background-color: #0c5273;
+margin-top: 24px;
+margin-left: 15px;
+font-size: .75rem;
+font-family: JioType,helvetica,arial,sans-serif;
+text-align: center;
+line-height: 25px;
+color: white;
+}
+.view-plans{
+    width: 100%;
+    margin-top: 41px;
+    justify-content: center;
+}
+
+.viewplans-key{
+    height: 50px;
+    width: 141px;
+margin-left: 39px;
+text-align: center;
+line-height: 49px;
+border-radius: 30px 30px 30px 30px;
+border-style: solid;
+border-color:aliceblue;
+color: #0a2885;
+font-family: JioType,helvetica,arial,sans-serif;
+font-weight: 600;
+}
+
+.body-oproducts{
+   display: flex;
+   margin-top: 20px;
+
+
+}
+.bodyproducts-sub{
+    height: 315px;
+    width: 386px;
+    border-style: solid ;
+    border-color:rgb(232, 234, 238);
+    margin-left: 23px;
+    border-radius: 20px 20px 20px 20px;
+}
+.bodyproducts-sub img{
+    margin-top: 21px;
+
+}
+.bodyproducts-sub p{
+    font-family: JioType,helvetica,arial,sans-serif;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.bodyproducts-sub h1{
+    font-family: JioType,helvetica,arial,sans-serif;
+    font-size:medium;
+    margin-left: 20px;
+    color:rgb(89,89,89) ;
+}
+.jio-apps{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 32px;
+}
+.jiosub-1{
+    height: 489px;
+    margin-right: 20px;
+    background-color: whitesmoke;
+    border-radius: 20px 20px 20px 20px;
+}
+.jiosub-1 img{
+    border-radius: 20px 20px 20px 20px 
+}
+.symbol-text{
+    display: flex;
+}
+.symbol-text img{
+    margin-top: 16px;
+    margin-left: 16px;
+
+}
+.symbol-text p{
+    margin-top: 24px;
+    margin-left: 11px;
+    font-family: JioType,helvetica,arial,sans-serif;
+    font-weight: 800;
+}
+.text-text{
+    font-family: JioType,helvetica,arial,sans-serif; 
+    color: rgb(89,89,89);
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size:medium;
+}
+    
+.down-buttons{
+    display: flex;
+}
+.getnow-button{
+    background-color: #0f3cc9;
+    border-radius: 40px 40px 40px 40px;
+    height: 35px;
+    width: 97px;
+    margin-top: 19px;
+    margin-left: 19px;
+
+}
+.down-buttons p{
+    margin-top: 8px;
+    margin-left: 16px;
+    font-size: 14p;
+    font-family: JioType,helvetica,arial,sans-serif;
+    font-weight: 600;
+    color: white;
+
+}
+.down-buttons h4{
+    margin-top: 25px;
+    margin-left: 29px;
+    font-size: 8;
+    font-family: JioType,helvetica,arial,sans-serif;
+    font-weight: 600;
+    color: rgb(10,40,133);
+}
+
+.down-image{
+    display: flex;
+    margin-left: 43px;
+    
+    
+
+}
+.down-image2{
+padding-top: 38px;
+    margin-left: 20px;
+    left: 100px;
+    border-radius: 30px 30px 30px 30px;
+   
+}
+.down-image img{
+    border-radius: 20px 20px 20px 20px;
+}
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 50px;
+    height: 396px;
+    font-family: JioType,helvetica,arial,sans-serif;
+    background-color: rgb(245,245,245);
+}
+.footer-useful{
+    margin-right: 241px;
+    margin-left: 44px;
+    margin-top: 45px;
+}
+.footer-right{
+    
+    margin-right: 100px;
+    width: 326px;
+    height: 272px;
+    margin-top: 45px;
+}
+.footerright-image{
+    display: flex;
+    
+  
+}
+.footerkey-image1{
+    margin-top: 7px;
+}
+.APPLE-PLAY{
+    margin-left: 10px;
+}
+.footer-dwnload{
+    margin-top: 44px;
+}
+.footerkey-imagea{
+    margin-top: 16px;
+}
+.footer h2{
+    font-size: 8;
+    font-family: JioType,helvetica,arial,sans-serif;
+    font-weight: 900;
+    font-size: large;
+}
+.footer-1{
+    margin-left: 44px;
+    font-family: JioType,helvetica,arial,sans-serif;
+    margin-top: 45px;
+}
+.footer-2{
+    margin-left: 44px;
+    font-family: JioType,helvetica,arial,sans-serif;
+    margin-top: 45px;
+}
+.footer-3{
+    margin-left: 44px;
+    margin-top: 45px;
+}
+.footer p{
+    font-size: 12px;
+
+}
+.footer h3{
+font-weight: 800;
+font-size: 15px;
+}
+.down-footer{
+    
+    display: flex;
+    justify-content:space-between;
+    font-family: JioType,helvetica,arial,sans-serif;
+    font-size: 11px;
+    border-top-style:solid ;
+    border-color:rgb(235, 233, 233);
+    background-color: rgb(245,245,245);
+    height: 83px;
+    font-weight: 600;
+    color: rgb(86,86,86);
+}
+.downfoot-jioicon{
+    margin-left: 26px;
+    margin-top: 21px;
+}
+.downfoot-text1{
+    margin-left: 50px;
+position: absolute;
+top: 3542px;
+}
+.downfoot-text{
+   display: flex;
+   margin-right: 50px;
+   margin-top: 31px;
+   
+}
+.downfoot-text p{
+    margin-left: 10px;
+    
+}
+
+
+ 
+
+
+
